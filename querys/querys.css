@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+
+.container-1{
+  margin-bottom: 20px;
+}
+
+.orange{
+  background-color: orange;
+  margin: 5px;
+  height: 100px;
+}
+/* Mobile */
+@media(width<=320px){
+
+}
+
+/* Tablet */
+@media(321px < width < 1024px){
+
+}
+
+/* Desktop */
+@media(width>=1024px){
+  .container-1{
+    display: flex;
+  }
+
+  .orange{
+    width: 49vw;
+  }
+}
+
+ .divs{
+    margin: 10px ;
+}
+.naranja {
+  background-color: orange;
+  height: 80px;
+}
+.amarillo {
+  background-color: yellow;
+  height: 200px;
+}
+.azul {
+  background-color: aqua;
+  height: 80px;
+}
+
+.gris {
+  background-color: grey;
+  height: 80px;
+}
+
+@media (1024px <= width) {
+  .naranjas {
+    display: flex;
+  }
+  .naranja {
+    background-color: orange;
+  }
+} 
